@@ -6,7 +6,7 @@ Problem Statement: https://drive.google.com/file/d/1FQTwungBC_pTOypwuLhny6jmMsmE
 
 ### Important Functions
 - `Minfuelforpathfunction()`: For a given path it calculates the minimum fuel required at starting point to make the path feasible.
-- `DijkstraAlgo()`: For a given node it calculates the shortest distance and the shortest path for each other node which is feasible with full fuel at starting node.
+- `DijkstraAlgo()`: For a given node it calculates the shortest distance and the shortest path for each other node while seeing the feasibility of path considering full fuel at starting point
 
 ### Algorithms Used
 - **Dijkstra Algorithm**: Computes shortest paths from a source node to all other nodes.
