@@ -18,7 +18,7 @@ Problem Statement: https://drive.google.com/file/d/1FQTwungBC_pTOypwuLhny6jmMsmE
    - Nearest **house** (if its hub has been visited and the house is unvisited)
    - Else, nearest **hub**(if it is unvisited)
    - Else, second nearest house, and so on...
-3) - If there is no enough fuel to reach the node:
+3) If there is no enough fuel to reach the node:
      - Go to the **nearest fuel station**, refuel, then try again.
      - If still not possible, **backtrack** to the parent node and skip this one.
 4) if no vaild next node backtrack to previous node and skip this one.
