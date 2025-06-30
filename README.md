@@ -17,7 +17,7 @@ Problem Statement: https://drive.google.com/file/d/1FQTwungBC_pTOypwuLhny6jmMsmE
 2) Taking a hub as starting point it reachs the nearest house if its hub is visited and house is unvisited else it vists nearest hub if it is unvisited else
    it vists 2nd nearest house if its hub is visited and house is unvisited else it vists 2nd nearest hub if it is unvisited so on.. untill one is selected
 3) while reaching a node it also checks the feasibility of going to that node if going to the node is not feasible then it goes to the nearest fuel station
-   and again try to reach the previous node.if this path is not feasible or no next node is selected after the current node then it removes the current node and goes back to its parent node and reaches next node after removed node in step 2.
+   and again try to reach the previous node.if this path is not feasible then it removes the current node and goes back to its parent node and reaches next node after removed node in step 2.
 4) if no next node is selected it removes the current node and goes back to its parent node and reaches next node after removed node in step 2.
 5) the shortest distance is calculated  by calculating the shortest distance for each hub as starting point
 
