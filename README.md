@@ -12,10 +12,10 @@ In this project, we implement a C++ solution that plans an end-to-end delivery r
 
 ```
 n t m k f
-h[0] h[1] ... h[n-1]        // hub nodes
- d[0] d[1] ... d[n-1]      // house nodes
- fs[0] fs[1] ... fs[k-1]   // fuel station nodes
- m lines of: a b c         // undirected edge between node a and b with fuel cost c
+h[0] h[1] ... h[n-1]      // hub nodes
+d[0] d[1] ... d[n-1]      // house nodes
+fs[0] fs[1] ... fs[k-1]   // fuel station nodes
+m lines of: a b c         // undirected edge between node a and b with fuel cost c
 ```
 
 * `n`: number of hub-house pairs
